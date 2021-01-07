@@ -1,21 +1,51 @@
 {
-    "name": "codeglace-theme",
-    "displayName": "codeglace-theme",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "codeGlace Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/codeGlace Theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "codeglace-theme",
+  "displayName": "codeGlace Theme",
+  "description": "Hey nature lovers! This dark greenish VS code theme is just for you.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "publisher": "codeGlace",
+  "author": {
+    "name": "Subrato Pattanaik"
+  },
+  "galleryBanner": {
+    "color": "#041A22",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subrato31/codeGlace-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/subrato31/codeGlace-vscode-theme/issues"
+  },
+  "icon": "images/codeGlace.png",
+  "keywords": [
+    "codeGlace Theme",
+    "Dark Theme",
+    "codeGlace",
+    "Dark",
+    "Green",
+    "Greenish",
+    "nature",
+    "nature lover"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "contributors": [
+    "Subrato Patnaik"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "codeGlace Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/codeGlace-color-theme.json"
+      }
+    ]
+  }
 }
